@@ -1,30 +1,31 @@
-House Price Prediction – ML + GUI
+🏡 House Price Prediction – ML + GUI
 
-A simple machine learning project that predicts house prices using Area, Bedrooms, and Neighborhood from the Ames Housing Dataset.
-The project includes a trained ML model and a user-friendly Tkinter GUI for entering values and viewing predicted prices.
+A simple and interactive Machine Learning project that predicts house prices using Area, Bedrooms, and Neighborhood from the Ames Housing Dataset.
+It includes a trained ML model and a clean Tkinter GUI for entering inputs and instantly viewing predicted prices.
 
-Features
+⭐ Features
 
-Linear Regression model for price prediction
-Automatic preprocessing (missing values + one-hot encoding)
-GUI app that takes user inputs and shows price instantly
-Very easy to run and use
+1.Linear Regression model for accurate price prediction
+2.Automatic preprocessing (missing values + one-hot encoding)
+3.Easy-to-use GUI for entering house details
+4.Instant real-time prediction output
+5.Simple, clean, and beginner-friendly project structure
 
-How to Run
+🚀 How to Run
 
-Install required libraries:
+✔ Install required libraries:
 pip install pandas scikit-learn
-Run main project:
+
+✔ Run the GUI application:
 python gui_house_price.py
 
-How It Works
+🧠 How It Works
 
-Dataset is loaded and cleaned.
-Neighborhood is converted into dummy columns.
-A Linear Regression model is trained.
-GUI takes user inputs and feeds them to the model.
-The predicted house price is displayed instantly.
+1.The dataset is loaded, cleaned, and preprocessed
+2.Neighborhood (location) is converted into dummy encoded columns
+3.A Linear Regression model is trained using selected features
+4.The GUI collects user inputs and converts them into model format
+5.The model predicts the house price and displays it instantly
 
-GUI Preview
-
-<img width="404" height="430" alt="image" src="https://github.com/user-attachments/assets/51135538-3c18-4a91-a7ef-86c62590e3a7" />
+🖼 GUI Preview
+<img width="404" height="430" alt="image" src="https://github.com/user-attachments/assets/94038b15-9260-4f13-9166-05f75dc0fe90" />
